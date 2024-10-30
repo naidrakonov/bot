@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Визитка">
+<meta name="keywords" content="naidrakonov">
+<meta name="author" content="Най Драконов">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta property="og:title" content="naidrakonov">
+<meta property="og:description" content="Визитка">
+<meta property="og:image" content="https://naidrakonov.github.io/anime/1000000.jpg"> <!-- URL изображения -->
+<meta property="og:url" content="https://naidrakonov.github.io/naidrakonov/"> <!-- URL вашей страницы -->
+<meta property="og:type" content="website"> <!-- Тип контента -->
+
+<link rel="icon" href="windows-10_icon-icons.com_66166.ico">
+<meta name="theme-color" content="#007BFF">
+
+<title>naidrakonov</title>
+
+<style>
+
+body {
+background-color: #ffffff;
+margin: 0;
+max-width: 100%;
+padding: 0;
+}
+
+h2 {
+font-family: Arial, sans-serif;
+}
+
+.box {
+max-width: 100%;
+padding: 10px 25%;
+}
+
+img {
+box-sizing: border-box;
+max-width: 100%;
+}
+
+a {
+color: #000000;
+}
+
+a:visited {
+color: #000000;
+}
+
+/* АБЗАЦ ================================================== */
+
+p {
+box-sizing: border-box;
+color: #000000;
+font-family: Arial, sans-serif;
+font-size: 1em;
+line-height: 1.5em;
+margin: 0 0 0.5em 0;
+}
+
+/* Цвет текста выделенного текста */
+::selection {
+background-color: #000000;
+color: #ffffff;
+}
+
+/* РАЗДЕЛИТЕЛЬ ================================================== */
+
+.separator {
+border-top: 1px solid #000;
+box-sizing: border-box;
+margin: 0 0px 0.5em 0px;
+max-width: 100%;
+}
+
+/* ВЫНОСКА ================================================== */
+
+.box-color {
+background-color: #e6e6e6;
+box-sizing: border-box;
+margin: 0 0 0.5em 0;
+max-width: 100%;
+padding: 1em 1em 0.5em 1em;
+}
+
+@media (max-width: 800px) {
+
+.box {
+padding: 10px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h2>Определение типа устройства</h2>
+<div id="deviceType">Проверка устройства...</div>
+<script>
+	function detectDevice() {
+	const userAgent = navigator.userAgent;
+	const deviceTypeElement = document.getElementById('deviceType');
+
+	if (/mobile/i.test(userAgent)) {
+	deviceTypeElement.textContent = "Это мобильное устройство";
+	} else {
+	deviceTypeElement.textContent = "Это компьютер";
+	}
+	}
+
+	// Вызов функции для определения типа устройства
+	detectDevice();
+</script>
+
+<!-- =================================================================================== -->
+
+<img src="1000000.jpg">
+
+<h2>ВЕБ ИНСРУМЕНТЫ</h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/nd_notes.html">Заметки</a></h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/GenColor.html">Генератор цвета</a></h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/ConReg.html">Конвектор регистров</a></h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/analiz.html">Анализ</a></h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/ocr.html">Округлить фото</a></h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/pho.html">Фоторедактор</a></h2>
+
+<img src="1000001.jpg">
+
+<h2>КАТАЛОГИ</h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/color.html">Палитра</a></h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/apps.html">Приложение</a></h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/anime.html">Список аниме</a></h2>
+
+<img src="1000002.gif">
+
+<h2>ДРУГОЕ</h2>
+<h2><a href="https://naidrakonov.github.io/alaskacommune/">Аляска</a></h2>
+<h2><a href="https://teletype.in/@naidrakonov/menu">Псевдосайт</a></h2>
+
+<p class="separator"><p>
+
+</div>
+
+</body>
+</html>
