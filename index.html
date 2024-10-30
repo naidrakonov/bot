@@ -120,6 +120,21 @@ padding: 10px;
 	detectDevice();
 </script>
 
+<p>Калининградское время</p>
+<div id="clock"></div>
+
+<script>
+function updateClock() {
+// Получаем текущее время в Калининграде (UTC+2)
+const options = { timeZone: 'Europe/Kaliningrad', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+const kaliningradTime = new Intl.DateTimeFormat('ru-RU', options).format(new Date());
+document.getElementById('clock').textContent = kaliningradTime;
+}
+
+setInterval(updateClock, 1000);
+updateClock(); // Обновить часы сразу при загрузке
+</script>
+
 <!-- =================================================================================== -->
 
 <img src="1000000.jpg">
