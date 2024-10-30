@@ -3,21 +3,21 @@
 
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="Краткое описание страницы.">
-<meta name="keywords" content="ключевые слова, через, запятую">
-<meta name="author" content="Имя автора">
+<meta name="description" content="Визитка">
+<meta name="keywords" content="naidrakonov">
+<meta name="author" content="Най Драконов">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta property="og:title" content="Anime">
-<meta property="og:description" content="Описание содержания вашей страницы.">
+<meta property="og:title" content="naidrakonov">
+<meta property="og:description" content="Визитка">
 <meta property="og:image" content="https://naidrakonov.github.io/anime/1000000.jpg"> <!-- URL изображения -->
-<meta property="og:url" content="https://naidrakonov.github.io/anime/"> <!-- URL вашей страницы -->
+<meta property="og:url" content="https://naidrakonov.github.io/naidrakonov/"> <!-- URL вашей страницы -->
 <meta property="og:type" content="website"> <!-- Тип контента -->
 
 <link rel="icon" href="windows-10_icon-icons.com_66166.ico">
 <meta name="theme-color" content="#007BFF">
 
-<title>anime</title>
+<title>naidrakonov</title>
 
 <style>
 
@@ -101,28 +101,53 @@ padding: 10px;
 <body>
 
 <div class="box">
+
+<h2>Определение типа устройства</h2>
+<div id="deviceType">Проверка устройства...</div>
+<script>
+	function detectDevice() {
+	const userAgent = navigator.userAgent;
+	const deviceTypeElement = document.getElementById('deviceType');
+
+	if (/mobile/i.test(userAgent)) {
+	deviceTypeElement.textContent = "Это мобильное устройство";
+	} else {
+	deviceTypeElement.textContent = "Это компьютер";
+	}
+	}
+
+	// Вызов функции для определения типа устройства
+	detectDevice();
+</script>
+
+<!-- =================================================================================== -->
+
 <img src="1000000.jpg">
 
-<h2><a href="https://teletype.in/@animeanime">Teletype</a></h2>
-<h2><a href="https://vk.com/animeanimeanime">Группа</a></h2>
-<h2><a href="https://vk.com/animeanimeanimeanime">Дополнительная группа</a></h2>
-<h2><a href="https://vk.com/@animeanimeanime">Статьи группы</a></h2>
-<h2><a href="https://vk.com/@animeanimeanime-menu">Меню группы</a></h2>
+<h2>ВЕБ ИНСРУМЕНТЫ</h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/nd_notes.html">Заметки</a></h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/GenColor.html">Генератор цвета</a></h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/ConReg.html">Конвектор регистров</a></h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/analiz.html">Анализ</a></h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/ocr.html">Округлить фото</a></h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/pho.html">Фоторедактор</a></h2>
+
 <img src="1000001.jpg">
 
+<h2>КАТАЛОГИ</h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/color.html">Палитра</a></h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/apps.html">Приложение</a></h2>
+<h2><a href="https://naidrakonov.github.io/naidrakonov/anime.html">Список аниме</a></h2>
+
+<img src="1000002.gif">
+
+<h2>ДРУГОЕ</h2>
+<h2><a href="https://naidrakonov.github.io/alaskacommune/">Аляска</a></h2>
+<h2><a href="https://teletype.in/@naidrakonov/menu">Псевдосайт</a></h2>
+
 <p class="separator"><p>
 
-<details>
-<summary>Другое</summary>
-<div class="box-color">
-<p>Пробую</p>
 </div>
-</details>
-
-<p><a href="https://naidrakonov.github.io/alaskacommune/">alaska</a></p>
-</div>
-
-<p class="separator"><p>
 
 </body>
 </html>
